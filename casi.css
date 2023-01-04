@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: -30px;
+    font-size: 60px;
+}
+*[
+padding: 0;
+margin: 0;
+]
+.header{
+    margin: auto;
+    width: 500px;
+font-family:serif; 
+    
+}
+    
+
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin: 1px;
+    padding: 13px;
+}
+.nav li a:hover {
+    background-color: black;
+
+    
+}
+.nav > li{
+    float:left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+
+}
+.nav li:hover > ul{
+    display: block; 
+}
+.nav li ul li {
+    position: relative;
+}
+.nav li ul li ul{
+    right: -10px;
+    top:0px;
+}
+h2{
+    color: coral;
+    font-size: 20px;
+    margin: 18px;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+}
+h5{
+    font-size: 15px;
+    color:maroon;
+}
+p{
+    font-size: 17px;
+    color: black;
+    margin: 20px;
+}
+body {
+    background-image: url(elver.jpg)
+}
+ul{
+    color: black;
+}
+b{
+    color:brown;
+}
